@@ -1,0 +1,47 @@
+name: Fetch Portfolio Prices
+
+on:
+  schedule:
+    # Runs at 21:00 UTC daily (10pm BST summer, 9pm GMT winter)
+    # This is comfortably after both UK and US market close
+    - cron: '0 21 * * 1-5'  # weekdays only (Mon-Fri)
+
+  # Allows you to run the workflow manually from the Actions tab
+  # useful for testing or if you want to trigger an out-of-schedule fetch
+  workflow_dispatch:
+
+jobs:
+  fetch-prices:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository files
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Step 3: Install required libraries
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Step 4: Run the price fetcher script
+      # API key and rate limit are injected from GitHub Secrets
+      - name: Fetch prices
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          RATE_LIMIT_SECONDS: ${{ secrets.RATE_LIMIT_SECONDS }}
+        run: python fetch_prices.py --bars 10
+
+      # Step 5: Commit the updated prices.csv back to the repository
+      - name: Commit updated prices
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add prices.csv fetch.log
+          git diff --staged --quiet || git commit -m "Auto-update prices $(date +'%Y-%m-%d')"
+          git push
