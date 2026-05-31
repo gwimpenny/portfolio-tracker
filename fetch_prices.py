@@ -18,7 +18,7 @@ import argparse
 import logging
 import os
 import time
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import quote
 
@@ -305,7 +305,7 @@ def parse_api_response(ticker: str, data: dict, currency_code: str = "", excel_t
                 continue  # skip any incomplete bars
 
             # Convert Unix timestamp to a plain calendar date
-            bar_date = datetime.fromtimestamp(timestamp, datetime.UTC).date()
+            bar_date = datetime.fromtimestamp(timestamp, timezone.utc).date()
 
             rows.append({
                 "ticker":       ticker,
