@@ -135,7 +135,9 @@ def load_existing_prices(output_csv: str) -> pd.DataFrame:
         )
         return pd.DataFrame(columns=["ticker", "excel_ticker", "date", "close", "currency"])
 
-    df = pd.read_csv(output_csv, parse_dates=["date"])
+    df = pd.read_csv(output_csv)
+    # Robustly parse the date column regardless of format
+    df["date"] = pd.to_datetime(df["date"], dayfirst=True, errors="coerce")
     logging.info(f"Loaded {len(df)} existing price rows from '{output_csv}'")
     return df
 
@@ -148,7 +150,17 @@ def get_latest_dates(df: pd.DataFrame) -> dict[str, date]:
     if df.empty:
         return {}
     latest = df.groupby("ticker")["date"].max()
-    return {ticker: d.date() for ticker, d in latest.items()}
+    result = {}
+    for ticker, d in latest.items():
+        try:
+            # Handle both datetime objects and strings
+            if hasattr(d, "date"):
+                result[ticker] = d.date()
+            else:
+                result[ticker] = pd.to_datetime(d, dayfirst=True).date()
+        except Exception:
+            pass
+    return result
 
 
 # ===========================================================================
@@ -474,3 +486,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     main(args.input, args.output, args.log, args.bars)
+
