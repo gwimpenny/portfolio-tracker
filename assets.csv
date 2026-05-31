@@ -1,0 +1,19 @@
+ticker,excel_ticker,asset_type,description
+LSE:EPRA,XLON:EPRA,ETF,Amundi FTSE EPRA Nareit Global
+LSE:SGLP,XLON:SGLP,ETF,iShares Physical Gold
+LSE:CSP1,XLON:CSP1,ETF,iShares Core S&P 500
+LSE:CE31,XLON:CE31,ETF,iShares Core MSCI EM IMI
+LSE:IBGL,XLON:IBGL,ETF,iShares Global Govt Bond
+LSE:USSC,XLON:USSC,ETF,iShares MSCI USA Small Cap
+LSE:UC64,XLON:UC64,ETF,UBS MSCI World Socially Responsible
+LSE:XXSC,XLON:XXSC,ETF,Xtrackers MSCI World Small Cap
+LSE:XDEM,XLON:XDEM,ETF,Xtrackers MSCI World Momentum
+LSE:XDEQ,XLON:XDEQ,ETF,Xtrackers MSCI World Quality
+LSE:XNAQ,XLON:XNAQ,ETF,Xtrackers MSCI World ESG
+NASDAQ:QCOM,XNAS:QCOM,US Stock,Qualcomm
+LSE:SWDA,XSWX:SWDA,ETF,iShares Core MSCI World
+LSE:HMWO,XLON:HMWO,ETF,HSBC MSCI World
+COINBASE:BTCGBP,BTCGBP,Crypto,Bitcoin GBP
+LSE:DFNG,XLON:DFNG,ETF,Dimensional Global Core Equity
+LSE:XMWX,XLON:XMWX,ETF,Xtrackers MSCI World ex USA
+FX:GBPUSD,GBPUSD,Forex,GBP to USD Exchange Rate
