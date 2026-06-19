@@ -655,3 +655,39 @@
 2026-06-18 11:57:17  INFO        Tickers skipped      : 0 (already up to date)
 2026-06-18 11:57:17  INFO        Tickers with errors  : 0
 2026-06-18 11:57:17  INFO      ============================================================
+2026-06-19 12:34:02  INFO      ============================================================
+2026-06-19 12:34:02  INFO      Portfolio Price Fetcher — starting run
+2026-06-19 12:34:02  INFO        Assets file  : assets.csv
+2026-06-19 12:34:02  INFO        Output file  : prices.csv
+2026-06-19 12:34:02  INFO        Bars to fetch: 10 trading days per ticker
+2026-06-19 12:34:02  INFO        Rate limit   : one API call every 3.6s
+2026-06-19 12:34:02  INFO      ============================================================
+2026-06-19 12:34:02  INFO      Loaded 18 asset(s) from 'assets.csv'
+2026-06-19 12:34:02  INFO      Loaded 17474 existing price rows from 'prices.csv'
+2026-06-19 12:34:02  INFO        LSE:EPRA (Amundi FTSE EPRA Nareit Global) — already up to date (latest: 2026-06-18). Skipping.
+2026-06-19 12:34:02  INFO        LSE:SGLP (iShares Physical Gold) — already up to date (latest: 2026-06-18). Skipping.
+2026-06-19 12:34:02  INFO        LSE:CSP1 (iShares Core S&P 500) — already up to date (latest: 2026-06-18). Skipping.
+2026-06-19 12:34:02  INFO        LSE:CE31 (iShares Core MSCI EM IMI) — already up to date (latest: 2026-06-18). Skipping.
+2026-06-19 12:34:02  INFO        LSE:IBGL (iShares Global Govt Bond) — already up to date (latest: 2026-06-18). Skipping.
+2026-06-19 12:34:02  INFO        LSE:USSC (iShares MSCI USA Small Cap) — already up to date (latest: 2026-06-18). Skipping.
+2026-06-19 12:34:02  INFO        LSE:UC64 (UBS MSCI World Socially Responsible) — already up to date (latest: 2026-06-18). Skipping.
+2026-06-19 12:34:02  INFO        LSE:XXSC (Xtrackers MSCI World Small Cap) — already up to date (latest: 2026-06-18). Skipping.
+2026-06-19 12:34:02  INFO        LSE:XDEM (Xtrackers MSCI World Momentum) — already up to date (latest: 2026-06-18). Skipping.
+2026-06-19 12:34:02  INFO        LSE:XDEQ (Xtrackers MSCI World Quality) — already up to date (latest: 2026-06-18). Skipping.
+2026-06-19 12:34:02  INFO        LSE:XNAQ (Xtrackers MSCI World ESG) — already up to date (latest: 2026-06-18). Skipping.
+2026-06-19 12:34:02  INFO        NASDAQ:QCOM (Qualcomm) [US Stock] — fetching 10 bars (will filter to dates after 2026-06-17)
+2026-06-19 12:34:02  INFO        NASDAQ:QCOM (Qualcomm) — 1 new row(s) added (most recent: 2026-06-18)
+2026-06-19 12:34:06  INFO        LSE:SWDA (iShares Core MSCI World) — already up to date (latest: 2026-06-18). Skipping.
+2026-06-19 12:34:06  INFO        LSE:HMWO (HSBC MSCI World) — already up to date (latest: 2026-06-18). Skipping.
+2026-06-19 12:34:06  INFO        COINBASE:BTCGBP (Bitcoin GBP) — already up to date (latest: 2026-06-18). Skipping.
+2026-06-19 12:34:06  INFO        LSE:DFNG (Dimensional Global Core Equity) — already up to date (latest: 2026-06-18). Skipping.
+2026-06-19 12:34:06  INFO        LSE:XMWX (Xtrackers MSCI World ex USA) — already up to date (latest: 2026-06-18). Skipping.
+2026-06-19 12:34:06  INFO        FX:GBPUSD (GBP to USD Exchange Rate) [Forex] — fetching 10 bars (will filter to dates after 2026-06-17)
+2026-06-19 12:34:06  INFO        FX:GBPUSD (GBP to USD Exchange Rate) — 1 new row(s) added (most recent: 2026-06-18)
+2026-06-19 12:34:10  INFO      Saved 17476 total rows to 'prices.csv'
+2026-06-19 12:34:10  INFO      ------------------------------------------------------------
+2026-06-19 12:34:10  INFO      Run complete.
+2026-06-19 12:34:10  INFO        New price rows added : 2
+2026-06-19 12:34:10  INFO        Tickers skipped      : 16 (already up to date)
+2026-06-19 12:34:10  INFO        Tickers with errors  : 0
+2026-06-19 12:34:10  INFO      ============================================================
