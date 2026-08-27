@@ -2842,3 +2842,57 @@
 2026-08-25 21:30:48  INFO        Tickers skipped      : 18 (already up to date)
 2026-08-25 21:30:48  INFO        Tickers with errors  : 0
 2026-08-25 21:30:48  INFO      ============================================================
+2026-08-27 00:32:54  INFO      ============================================================
+2026-08-27 00:32:54  INFO      Portfolio Price Fetcher — starting run
+2026-08-27 00:32:54  INFO        Assets file  : assets.csv
+2026-08-27 00:32:54  INFO        Output file  : prices.csv
+2026-08-27 00:32:54  INFO        Bars to fetch: 10 trading days per ticker
+2026-08-27 00:32:54  INFO        Rate limit   : one API call every 3.6s
+2026-08-27 00:32:54  INFO      ============================================================
+2026-08-27 00:32:54  INFO      Loaded 18 asset(s) from 'assets.csv'
+2026-08-27 00:32:54  INFO      Loaded 18332 existing price rows from 'prices.csv'
+2026-08-27 00:32:54  INFO        LSE:EPRA (Amundi FTSE EPRA Nareit Global) [ETF] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:32:55  INFO        LSE:EPRA (Amundi FTSE EPRA Nareit Global) — 1 new row(s) added (most recent: 2026-08-25)
+2026-08-27 00:32:58  INFO        LSE:SGLP (iShares Physical Gold) [ETF] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:32:59  INFO        LSE:SGLP (iShares Physical Gold) — 2 new row(s) added (most recent: 2026-08-26)
+2026-08-27 00:33:03  INFO        LSE:CSP1 (iShares Core S&P 500) [ETF] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:33:03  INFO        LSE:CSP1 (iShares Core S&P 500) — 2 new row(s) added (most recent: 2026-08-26)
+2026-08-27 00:33:06  INFO        LSE:CE31 (iShares Core MSCI EM IMI) [ETF] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:33:07  INFO        LSE:CE31 (iShares Core MSCI EM IMI) — 2 new row(s) added (most recent: 2026-08-26)
+2026-08-27 00:33:11  INFO        LSE:IBGL (iShares Global Govt Bond) [ETF] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:33:11  INFO        LSE:IBGL (iShares Global Govt Bond) — 2 new row(s) added (most recent: 2026-08-26)
+2026-08-27 00:33:15  INFO        LSE:USSC (iShares MSCI USA Small Cap) [ETF] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:33:15  INFO        LSE:USSC (iShares MSCI USA Small Cap) — 2 new row(s) added (most recent: 2026-08-26)
+2026-08-27 00:33:19  INFO        LSE:UC64 (UBS MSCI World Socially Responsible) [ETF] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:33:19  INFO        LSE:UC64 (UBS MSCI World Socially Responsible) — 2 new row(s) added (most recent: 2026-08-26)
+2026-08-27 00:33:23  INFO        LSE:XXSC (Xtrackers MSCI World Small Cap) [ETF] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:33:23  INFO        LSE:XXSC (Xtrackers MSCI World Small Cap) — 2 new row(s) added (most recent: 2026-08-26)
+2026-08-27 00:33:27  INFO        LSE:XDEM (Xtrackers MSCI World Momentum) [ETF] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:33:27  INFO        LSE:XDEM (Xtrackers MSCI World Momentum) — 2 new row(s) added (most recent: 2026-08-26)
+2026-08-27 00:33:31  INFO        LSE:XDEQ (Xtrackers MSCI World Quality) [ETF] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:33:31  INFO        LSE:XDEQ (Xtrackers MSCI World Quality) — 2 new row(s) added (most recent: 2026-08-26)
+2026-08-27 00:33:35  INFO        LSE:XNAQ (Xtrackers MSCI World ESG) [ETF] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:33:35  INFO        LSE:XNAQ (Xtrackers MSCI World ESG) — 2 new row(s) added (most recent: 2026-08-26)
+2026-08-27 00:33:39  INFO        NASDAQ:QCOM (Qualcomm) [US Stock] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:33:39  WARNING     [NASDAQ:QCOM] Rate limit hit (429). Waiting 10s before retry 1/3...
+2026-08-27 00:33:50  WARNING     [NASDAQ:QCOM] Rate limit hit (429). Waiting 20s before retry 2/3...
+2026-08-27 00:34:10  INFO        NASDAQ:QCOM (Qualcomm) — 2 new row(s) added (most recent: 2026-08-26)
+2026-08-27 00:34:13  INFO        LSE:SWDA (iShares Core MSCI World) [ETF] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:34:14  INFO        LSE:SWDA (iShares Core MSCI World) — 2 new row(s) added (most recent: 2026-08-26)
+2026-08-27 00:34:17  INFO        LSE:HMWO (HSBC MSCI World) [ETF] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:34:18  INFO        LSE:HMWO (HSBC MSCI World) — 2 new row(s) added (most recent: 2026-08-26)
+2026-08-27 00:34:22  INFO        COINBASE:BTCGBP (Bitcoin GBP) [Crypto] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:34:22  INFO        COINBASE:BTCGBP (Bitcoin GBP) — 3 new row(s) added (most recent: 2026-08-27)
+2026-08-27 00:34:26  INFO        LSE:DFNG (Dimensional Global Core Equity) [ETF] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:34:26  INFO        LSE:DFNG (Dimensional Global Core Equity) — 2 new row(s) added (most recent: 2026-08-26)
+2026-08-27 00:34:30  INFO        LSE:XMWX (Xtrackers MSCI World ex USA) [ETF] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:34:30  INFO        LSE:XMWX (Xtrackers MSCI World ex USA) — 2 new row(s) added (most recent: 2026-08-26)
+2026-08-27 00:34:34  INFO        FX:GBPUSD (GBP to USD Exchange Rate) [Forex] — fetching 10 bars (will filter to dates after 2026-08-24)
+2026-08-27 00:34:34  INFO        FX:GBPUSD (GBP to USD Exchange Rate) — 2 new row(s) added (most recent: 2026-08-26)
+2026-08-27 00:34:37  INFO      Saved 18368 total rows to 'prices.csv'
+2026-08-27 00:34:37  INFO      ------------------------------------------------------------
+2026-08-27 00:34:37  INFO      Run complete.
+2026-08-27 00:34:37  INFO        New price rows added : 36
+2026-08-27 00:34:37  INFO        Tickers skipped      : 0 (already up to date)
+2026-08-27 00:34:37  INFO        Tickers with errors  : 0
+2026-08-27 00:34:37  INFO      ============================================================
