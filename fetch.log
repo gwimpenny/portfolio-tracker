@@ -4150,3 +4150,55 @@
 2026-10-02 00:36:38  INFO        Tickers skipped      : 1 (already up to date)
 2026-10-02 00:36:38  INFO        Tickers with errors  : 0
 2026-10-02 00:36:38  INFO      ============================================================
+2026-10-03 00:15:16  INFO      ============================================================
+2026-10-03 00:15:16  INFO      Portfolio Price Fetcher — starting run
+2026-10-03 00:15:16  INFO        Assets file  : assets.csv
+2026-10-03 00:15:16  INFO        Output file  : prices.csv
+2026-10-03 00:15:16  INFO        Bars to fetch: 10 trading days per ticker
+2026-10-03 00:15:16  INFO        Rate limit   : one API call every 3.6s
+2026-10-03 00:15:16  INFO      ============================================================
+2026-10-03 00:15:16  INFO      Loaded 18 asset(s) from 'assets.csv'
+2026-10-03 00:15:16  INFO      Loaded 18827 existing price rows from 'prices.csv'
+2026-10-03 00:15:16  INFO        LSE:EPRA (Amundi FTSE EPRA Nareit Global) [ETF] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:15:17  INFO        LSE:EPRA (Amundi FTSE EPRA Nareit Global) — 1 new row(s) added (most recent: 2026-10-02)
+2026-10-03 00:15:20  INFO        LSE:SGLP (iShares Physical Gold) [ETF] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:15:21  INFO        LSE:SGLP (iShares Physical Gold) — 1 new row(s) added (most recent: 2026-10-02)
+2026-10-03 00:15:24  INFO        LSE:CSP1 (iShares Core S&P 500) [ETF] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:15:25  INFO        LSE:CSP1 (iShares Core S&P 500) — 1 new row(s) added (most recent: 2026-10-02)
+2026-10-03 00:15:29  INFO        LSE:CE31 (iShares Core MSCI EM IMI) [ETF] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:15:29  INFO        LSE:CE31 (iShares Core MSCI EM IMI) — 1 new row(s) added (most recent: 2026-10-02)
+2026-10-03 00:15:33  INFO        LSE:IBGL (iShares Global Govt Bond) [ETF] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:15:34  INFO        LSE:IBGL (iShares Global Govt Bond) — 1 new row(s) added (most recent: 2026-10-02)
+2026-10-03 00:15:37  INFO        LSE:USSC (iShares MSCI USA Small Cap) [ETF] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:15:38  INFO        LSE:USSC (iShares MSCI USA Small Cap) — 1 new row(s) added (most recent: 2026-10-02)
+2026-10-03 00:15:41  INFO        LSE:UC64 (UBS MSCI World Socially Responsible) [ETF] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:15:42  INFO        LSE:UC64 (UBS MSCI World Socially Responsible) — 1 new row(s) added (most recent: 2026-10-02)
+2026-10-03 00:15:45  INFO        LSE:XXSC (Xtrackers MSCI World Small Cap) [ETF] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:15:46  INFO        LSE:XXSC (Xtrackers MSCI World Small Cap) — 1 new row(s) added (most recent: 2026-10-02)
+2026-10-03 00:15:50  INFO        LSE:XDEM (Xtrackers MSCI World Momentum) [ETF] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:15:50  INFO        LSE:XDEM (Xtrackers MSCI World Momentum) — 1 new row(s) added (most recent: 2026-10-02)
+2026-10-03 00:15:54  INFO        LSE:XDEQ (Xtrackers MSCI World Quality) [ETF] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:15:54  INFO        LSE:XDEQ (Xtrackers MSCI World Quality) — 1 new row(s) added (most recent: 2026-10-02)
+2026-10-03 00:15:58  INFO        LSE:XNAQ (Xtrackers MSCI World ESG) [ETF] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:15:58  INFO        LSE:XNAQ (Xtrackers MSCI World ESG) — 1 new row(s) added (most recent: 2026-10-02)
+2026-10-03 00:16:02  INFO        NASDAQ:QCOM (Qualcomm) [US Stock] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:16:03  INFO        NASDAQ:QCOM (Qualcomm) — 1 new row(s) added (most recent: 2026-10-02)
+2026-10-03 00:16:06  INFO        LSE:SWDA (iShares Core MSCI World) [ETF] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:16:07  INFO        LSE:SWDA (iShares Core MSCI World) — 1 new row(s) added (most recent: 2026-10-02)
+2026-10-03 00:16:10  INFO        LSE:HMWO (HSBC MSCI World) [ETF] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:16:11  INFO        LSE:HMWO (HSBC MSCI World) — 1 new row(s) added (most recent: 2026-10-02)
+2026-10-03 00:16:15  INFO        COINBASE:BTCGBP (Bitcoin GBP) [Crypto] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:16:15  INFO        COINBASE:BTCGBP (Bitcoin GBP) — 2 new row(s) added (most recent: 2026-10-03)
+2026-10-03 00:16:19  INFO        LSE:DFNG (Dimensional Global Core Equity) [ETF] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:16:19  INFO        LSE:DFNG (Dimensional Global Core Equity) — 1 new row(s) added (most recent: 2026-10-02)
+2026-10-03 00:16:23  INFO        LSE:XMWX (Xtrackers MSCI World ex USA) [ETF] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:16:24  INFO        LSE:XMWX (Xtrackers MSCI World ex USA) — 1 new row(s) added (most recent: 2026-10-02)
+2026-10-03 00:16:27  INFO        FX:GBPUSD (GBP to USD Exchange Rate) [Forex] — fetching 10 bars (will filter to dates after 2026-10-01)
+2026-10-03 00:16:28  INFO        FX:GBPUSD (GBP to USD Exchange Rate) — already up to date, nothing new to add.
+2026-10-03 00:16:31  INFO      Saved 18845 total rows to 'prices.csv'
+2026-10-03 00:16:31  INFO      ------------------------------------------------------------
+2026-10-03 00:16:31  INFO      Run complete.
+2026-10-03 00:16:31  INFO        New price rows added : 18
+2026-10-03 00:16:31  INFO        Tickers skipped      : 1 (already up to date)
+2026-10-03 00:16:31  INFO        Tickers with errors  : 0
+2026-10-03 00:16:31  INFO      ============================================================
